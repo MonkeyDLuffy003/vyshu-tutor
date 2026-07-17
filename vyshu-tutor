@@ -1,0 +1,21 @@
+vyshu-tutor/                          ← repo root
+├── pubspec.yaml
+├── README.md
+├── .github/
+│   └── workflows/
+│       └── build_apk.yml
+└── lib/
+    ├── main.dart
+    ├── config.dart
+    ├── models/
+    │   └── message.dart
+    ├── services/
+    │   ├── ai_tutor_service.dart
+    │   ├── mock_test_service.dart
+    │   ├── youtube_service.dart
+    │   ├── language_service.dart
+    │   └── speech_service.dart
+    └── screens/
+        ├── home_screen.dart
+        ├── chat_screen.dart
+        └── mock_test_screen.dart
