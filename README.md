@@ -53,3 +53,25 @@ inside the `<manifest>` tag (above `<application>`):
 - No login/progress saved across sessions yet (add `shared_preferences`
   calls where useful — it's already a dependency).
 - iOS isn't set up; this workflow only builds Android APK.
+vyshu-tutor/                          ← repo root
+├── pubspec.yaml
+├── README.md
+├── .github/
+│   └── workflows/
+│       └── build_apk.yml
+└── lib/
+    ├── main.dart
+    ├── config.dart
+    ├── models/
+    │   └── message.dart
+    ├── services/
+    │   ├── ai_tutor_service.dart
+    │   ├── mock_test_service.dart
+    │   ├── youtube_service.dart
+    │   ├── language_service.dart
+    │   └── speech_service.dart
+    └── screens/
+        ├── home_screen.dart
+        ├── chat_screen.dart
+        └── mock_test_screen.dart
+  
