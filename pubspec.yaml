@@ -1,0 +1,39 @@
+name: vyshu_tutor
+description: "Vyshu AI Tutor - Learn Python & AI with voice chat, mock tests, and 5 Indian languages"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Voice
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+
+  # Networking
+  http: ^1.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # Local storage (API keys, progress, chat history)
+  shared_preferences: ^2.3.2
+
+  # Permissions (mic access)
+  permission_handler: ^11.3.1
+
+  # Markdown rendering for AI answers (code blocks etc.)
+  flutter_markdown: ^0.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
